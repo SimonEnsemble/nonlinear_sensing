@@ -1,0 +1,39 @@
+lines.linewidth: 2
+lines.markeredgewidth: 0
+
+patch.linewidth: 0.5
+patch.facecolor: 348ABD  # blue
+patch.edgecolor: none
+patch.antialiased: True
+
+font.family: Abel
+font.size: 14.0
+
+# axes.facecolor: (1.00, 0.898, 0.953, 0.1)
+axes.facecolor: (1.0, 1.0, 1.0)
+axes.edgecolor: (0.996, 0.961, 0.98, 0.1)
+axes.linewidth: 2
+axes.grid: True
+axes.titlesize: x-large
+axes.labelsize: large
+axes.labelcolor: 555555
+axes.axisbelow: True  # grid/ticks are below elements (e.g., lines, text)
+
+# sns.color_palette("Set2")
+axes.prop_cycle: cycler('color', [(0.4, 0.7607843137254902, 0.6470588235294118), (0.9882352941176471, 0.5529411764705883, 0.3843137254901961), (0.5529411764705883, 0.6274509803921569, 0.796078431372549), (0.9058823529411765, 0.5411764705882353, 0.7647058823529411), (0.6509803921568628, 0.8470588235294118, 0.32941176470588235), (1.0, 0.8509803921568627, 0.1843137254901961), (0.8980392156862745, 0.7686274509803922, 0.5803921568627451), (0.7019607843137254, 0.7019607843137254, 0.7019607843137254)])
+
+xtick.color: 555555
+xtick.direction: out
+
+ytick.color: 555555
+ytick.direction: out
+
+grid.color: D1D9FF
+grid.linestyle: -    # solid line
+
+figure.facecolor: white
+figure.edgecolor: 0.50
+
+# Fix export bug
+pdf.fonttype: 42
+ps.fonttype: 42
