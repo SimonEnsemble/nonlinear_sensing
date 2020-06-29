@@ -6,7 +6,7 @@ patch.facecolor: 348ABD  # blue
 patch.edgecolor: none
 patch.antialiased: True
 
-font.family: Abel
+font.family: Open Sans
 font.size: 14.0
 
 # axes.facecolor: (1.00, 0.898, 0.953, 0.1)
